@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>산업통상자원부 디지털 안내관 | MOTIE</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 상단 네비게이션 헤더 -->
+  <header class="header">
+    <div class="nav-container">
+      <div class="logo-area" onclick="navigateTo('hero')">
+        <div class="gov-badge">대한민국 정부</div>
+        <div class="logo-title">
+          <span class="logo-highlight">산업통상자원부</span> 디지털 홍보관
+        </div>
+      </div>
+      <nav class="nav-menu">
+        <button class="nav-link active" onclick="navigateTo('intro')">부처 소개</button>
+        <button class="nav-link" onclick="navigateTo('roles')">핵심 업무 4대 축</button>
+        <button class="nav-link" onclick="navigateTo('benefit-survey')">나의 혜택 진단</button>
+        <button class="nav-link" onclick="navigateTo('trends')">국민 체감 동향</button>
+        <button class="nav-link" onclick="navigateTo('news')">최신 정책 뉴스</button>
+        <button class="nav-link" onclick="navigateTo('quiz')">OX 퀴즈 & 정책 찾기</button>
+      </nav>
+      <div class="quick-links">
+        <a href="https://www.motie.go.kr" target="_blank" rel="noopener noreferrer" class="btn-official">공식 누리집 ↗</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 메인 히어로 섹션 -->
+  <section id="hero" class="hero-section">
+    <div class="hero-content">
+      <div class="hero-tag">대한민국 경제의 든든한 심장, 활력 있는 미래 산업</div>
+      <h1 class="hero-title">
+        첨단 산업 육성부터 글로벌 통상,<br>
+        깨끗하고 안전한 에너지까지
+      </h1>
+      <p class="hero-subtitle">
+        산업통상자원부는 우리 기업이 전 세계에서 당당히 경쟁하고, 국민 여러분이 풍요롭고 안전한 삶을 누릴 수 있도록 대한민국 실물 경제를 총괄합니다.
+      </p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" onclick="navigateTo('benefit-survey')">✨ 나는 어떤 혜택을 받을 수 있을까? (진단하기)</button>
+        <button class="btn btn-secondary" onclick="navigateTo('roles')">주요 업무 알아보기</button>
+      </div>
+
+      <!-- 핵심 성과 지표 카드 -->
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-number">252<span class="stat-unit">조 원</span></div>
+          <div class="stat-label">역대 최대 무역금융 공급 지원</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">TOP 4<span class="stat-unit">제조강국</span></div>
+          <div class="stat-label">반도체·배터리·모빌리티 초격차</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">무탄소<span class="stat-unit">에너지</span></div>
+          <div class="stat-label">CFE 연합 및 탄소중립 실현</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">글로벌<span class="stat-unit">경제안보</span></div>
+          <div class="stat-label">공급망 위기 선제대응 및 FTA 확대</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <!-- 섹션 1: 부처 소개 (알기 쉬운 해설) -->
+    <section id="intro" class="section-block">
+      <div class="section-header">
+        <span class="section-badge">ABOUT MOTIE</span>
+        <h2>산업통상자원부는 어떤 일을 하나요?</h2>
+        <p>어렵게 느껴지는 정부 정책, 우리 생활 속 이야기로 쉽게 풀어드립니다.</p>
+      </div>
+
+      <div class="card intro-summary-card">
+        <div class="intro-grid">
+          <div class="intro-box">
+            <div class="intro-icon">🏭</div>
+            <h3>산업 (Industry)</h3>
+            <p>스마트폰의 반도체부터 미래 전기차, 우주·로봇 산업까지 대한민국 제조업이 세계 1등이 되도록 연구개발(R&D)과 규제 혁신을 지원합니다.</p>
+          </div>
+          <div class="intro-box">
+            <div class="intro-icon">🚢</div>
+            <h3>통상 (Trade)</h3>
+            <p>우리 기업들이 생산한 우수한 제품들이 전 세계 5대양 6대주로 막힘없이 수출될 수 있도록 각국과 무역 협정을 맺고 관세를 낮춥니다.</p>
+          </div>
+          <div class="intro-box">
+            <div class="intro-icon">⚡</div>
+            <h3>자원 & 에너지 (Energy)</h3>
+            <p>공장과 가정에 24시간 365일 멈춤 없는 전기를 공급하고, 원전 생태계 복원과 신재생에너지를 조화롭게 육성해 에너지 안보를 지킵니다.</p>
+          </div>
+        </div>
+
+        <div class="callout-box">
+          <div class="callout-badge">💡 쉽게 비유하자면?</div>
+          <p>
+            <strong>"산업통상자원부는 대한민국 경제라는 거대한 공장의 총괄 엔지니어이자, 해외 시장을 개척하는 든든한 외교관입니다."</strong><br>
+            국민의 일자리 창출, 공정한 무역 환경 조성, 안정적인 에너지 복지를 책임집니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 섹션 2: 4대 핵심 업무 상세 탭 -->
+    <section id="roles" class="section-block">
+      <div class="section-header">
+        <span class="section-badge">PILLARS OF POLICY</span>
+        <h2>4대 핵심 업무 영역</h2>
+        <p>클릭하여 각 분야별 주요 정책과 국민이 얻는 혜택을 확인해보세요.</p>
+      </div>
+
+      <div class="tab-buttons">
+        <button class="tab-btn active" onclick="switchTab('tab-industry')">1. 첨단 미래산업 혁신</button>
+        <button class="tab-btn" onclick="switchTab('tab-trade')">2. 무역·수출 총력 지원</button>
+        <button class="tab-btn" onclick="switchTab('tab-energy')">3. 안정적 에너지 안보</button>
+        <button class="tab-btn" onclick="switchTab('tab-regional')">4. 지역경제 & 중소상생</button>
+      </div>
+
+      <div class="tab-container">
+        <!-- 탭 1: 첨단 미래산업 -->
+        <div id="tab-industry" class="tab-panel active">
+          <div class="panel-layout">
+            <div class="panel-text">
+              <span class="badge-tag">주력제조업 & 신성장동력</span>
+              <h3>초격차 기술로 세계를 선도하는 미래 산업 강국</h3>
+              <p>인공지능(AI) 혁명에 발맞춘 온-디바이스 AI 반도체 육성, 전기차 캐즘 돌파를 위한 차세대 배터리 투자, 'K-휴머노이드 연합'을 통한 로봇 산업 집중 육성을 이끌고 있습니다.</p>
+              
+              <ul class="feature-list">
+                <li><strong>반도체 메가 클러스터 구축 :</strong> 용인·평택 등 세계 최대 규모의 반도체 생산·연구 단지 조성 지원</li>
+                <li><strong>바이오 & 미래 모빌리티 :</strong> 첨단 바이오 파운드리 및 자율주행·SDV(소프트웨어 중심 차) 생태계 선제 육성</li>
+                <li><strong>소부장 자립화 :</strong> 핵심 소재·부품·장비의 국산화 및 해외 의존도 축소를 위한 R&D 대폭 투자</li>
+              </ul>
+            </div>
+            <div class="panel-card highlight-card">
+              <h4>국민 체감 혜택 🎁</h4>
+              <p>청년들을 위한 양질의 고소득 첨단 IT/엔지니어링 일자리가 대폭 늘어나고, 국가 기간산업 경쟁력으로 국가 경제가 튼튼해집니다.</p>
+              <div class="mini-tag-group">
+                <span class="tag">#반도체법</span>
+                <span class="tag">#K-휴머노이드</span>
+                <span class="tag">#이차전지</span>
+                <span class="tag">#소부장</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 탭 2: 무역·수출 -->
+        <div id="tab-trade" class="tab-panel">
+          <div class="panel-layout">
+            <div class="panel-text">
+              <span class="badge-tag">글로벌 통상 & 수출 플러스</span>
+              <h3>국경 없는 시장에서 우리 기업의 길을 넓히다</h3>
+              <p>지정학적 갈등과 미·중 무역 갈등 속에서도 우리 기업이 차별받지 않고 물건을 팔 수 있도록 통상 외교를 진두지휘하며, 역대 최대 규모 무역보험(252조 원)으로 수출 전선을 지원합니다.</p>
+              
+              <ul class="feature-list">
+                <li><strong>대미·글로벌 통상 대응 :</strong> 미국 신행정부 출범 및 글로벌 공급망 재편에 맞춘 민관 합동 신속 대응 T/F 가동</li>
+                <li><strong>수출애로 해소 3종 세트 :</strong> 물류비 지원, 해외 인증 획득 간소화, 글로벌 신규 판로 개척 밀착 지원</li>
+                <li><strong>조선·방산 수출 견인 :</strong> 고부가가치 LNG선, 친환경 선박 수주 및 글로벌 K-방산 패키지 수출 지원</li>
+              </ul>
+            </div>
+            <div class="panel-card highlight-card">
+              <h4>국민 체감 혜택 🎁</h4>
+              <p>수출 활성화로 환율이 안정되고 국가 경제 성장률이 견인되어, 국내 중소 협력업체와 자영업자까지 경기 회복의 온기를 나누게 됩니다.</p>
+              <div class="mini-tag-group">
+                <span class="tag">#252조무역금융</span>
+                <span class="tag">#수출플러스</span>
+                <span class="tag">#글로벌공급망</span>
+                <span class="tag">#FTA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 탭 3: 안정적 에너지 안보 -->
+        <div id="tab-energy" class="tab-panel">
+          <div class="panel-layout">
+            <div class="panel-text">
+              <span class="badge-tag">에너지 대전환 & 원전 르네상스</span>
+              <h3>깨끗하고 저렴하며 든든한 에너지 믹스 달성</h3>
+              <p>원자력 발전과 신재생에너지를 합리적으로 조화시킨 무탄소 에너지(CFE) 체계를 구축하고, 체코 원전 수출 본계약 완수 등 K-원전의 우수성을 세계에 입증하고 있습니다.</p>
+              
+              <ul class="feature-list">
+                <li><strong>원전 생태계 정상화 :</strong> 조기 일감 공급 및 원전 소부장 기업 30여 개 특별 육성 프로그램 가동</li>
+                <li><strong>에너지 3법 추진 :</strong> 고준위 방폐물 특별법, 국가 전력망 확충 특별법, 해상풍력 보급 촉진법 입법 추진</li>
+                <li><strong>자원 안보 확충 :</strong> 동해 심해 가스전 등 국내외 에너지 탐사·개발 및 핵심광물 비축량 대폭 확대</li>
+              </ul>
+            </div>
+            <div class="panel-card highlight-card">
+              <h4>국민 체감 혜택 🎁</h4>
+              <p>전력 수급 불안정으로 인한 블랙아웃 걱정 없이 안정적으로 전기를 사용하고, 냉난방 에너지 취약계층 바우처 지원으로 따뜻한 겨울을 보장합니다.</p>
+              <div class="mini-tag-group">
+                <span class="tag">#체코원전수출</span>
+                <span class="tag">#무탄소에너지CFE</span>
+                <span class="tag">#전력망특별법</span>
+                <span class="tag">#에너지바우처</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 탭 4: 지역경제 & 중소상생 -->
+        <div id="tab-regional" class="tab-panel">
+          <div class="panel-layout">
+            <div class="panel-text">
+              <span class="badge-tag">균형발전 & 동반성장</span>
+              <h3>어디서나 살기 좋은 지방 시대, 대·중소기업 상생</h3>
+              <p>수도권 집중을 완화하기 위해 지방 기회발전특구를 지정하고 파격적인 세제 혜택을 부여합니다. 또한 대기업의 수출 성과가 중소기업 협력사로 흐르도록 상생 무역금융을 가동합니다.</p>
+              
+              <ul class="feature-list">
+                <li><strong>기회발전특구 본격 가동 :</strong> 지방으로 이전·투자하는 대·중소기업에 파격적 세제 혜택 및 규제 프리존 부여</li>
+                <li><strong>소부장 상생 무역금융 :</strong> 대기업-은행-무역보험공사가 협력해 1차·2차 협력사에 2조~10조 원 규모 저금리 대출 지원</li>
+                <li><strong>산업위기 선제 대응 :</strong> 공급과잉 및 위기를 겪는 석유화학·철강 등 지역 거점 도시에 선제적 긴급 지원 패키지 공급</li>
+              </ul>
+            </div>
+            <div class="panel-card highlight-card">
+              <h4>국민 체감 혜택 🎁</h4>
+              <p>청년들이 고향을 떠나지 않아도 지역에서 좋은 일자리를 얻을 수 있고, 중소 하청기업도 든든한 금융 지원으로 부도 위기를 넘길 수 있습니다.</p>
+              <div class="mini-tag-group">
+                <span class="tag">#기회발전특구</span>
+                <span class="tag">#상생보증2조</span>
+                <span class="tag">#지역경제활성화</span>
+                <span class="tag">#동반성장</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 신규 섹션: 나는 산업부로부터 어떤 도움을 받을 수 있을까? (체크리스트 설문 진단기) -->
+    <section id="benefit-survey" class="section-block survey-section">
+      <div class="section-header">
+        <span class="section-badge highlight">SELF-DIAGNOSIS</span>
+        <h2>"나는 이 기관으로부터 어떤 도움을 받을 수 있을까?"</h2>
+        <p>몇 가지 항목에 체크하시면 산업통상자원부와 산하기관의 맞춤형 지원 정책 및 혜택을 1초 만에 찾아드립니다.</p>
+      </div>
+
+      <div class="survey-wrapper card">
+        <!-- 스텝 1: 기본 유형 선택 -->
+        <div class="survey-step">
+          <div class="step-label"><span class="step-num">Step 1</span> 귀하는 어떤 상황에 해당하시나요? (단일 선택)</div>
+          <div class="radio-card-group" id="surveyCategoryGroup">
+            <label class="radio-card selected" onclick="selectSurveyCategory('citizen')">
+              <input type="radio" name="surveyCat" value="citizen" checked>
+              <div class="radio-icon">🏠</div>
+              <div class="radio-info">
+                <strong>일반 국민 · 가정</strong>
+                <span>전기/난방 에너지 복지, 절약 캐시백, 안전 점검</span>
+              </div>
+            </label>
+
+            <label class="radio-card" onclick="selectSurveyCategory('youth')">
+              <input type="radio" name="surveyCat" value="youth">
+              <div class="radio-icon">🎓</div>
+              <div class="radio-info">
+                <strong>청년 · 대학생 · 구직자</strong>
+                <span>첨단산업(반도체/배터리/AI) 국비 교육, 취업 연계</span>
+              </div>
+            </label>
+
+            <label class="radio-card" onclick="selectSurveyCategory('sme')">
+              <input type="radio" name="surveyCat" value="sme">
+              <div class="radio-icon">🏭</div>
+              <div class="radio-info">
+                <strong>중소 · 중견 제조기업</strong>
+                <span>소부장 상생 금융, R&D 보조금, 스마트공장</span>
+              </div>
+            </label>
+
+            <label class="radio-card" onclick="selectSurveyCategory('exporter')">
+              <input type="radio" name="surveyCat" value="exporter">
+              <div class="radio-icon">🚢</div>
+              <div class="radio-info">
+                <strong>해외 수출 희망 기업</strong>
+                <span>무역보험, 해외 인증 획득, 해외 바이어 매칭</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <!-- 스텝 2: 다중 체크리스트 항목 -->
+        <div class="survey-step">
+          <div class="step-label"><span class="step-num">Step 2</span> 현재 관심 있거나 겪고 계신 상황을 모두 체크해주세요 (다중 선택 가능)</div>
+          <div class="checklist-container" id="checklistItems">
+            <!-- JS 동적 렌더링 -->
+          </div>
+        </div>
+
+        <!-- 진단 실행 버튼 -->
+        <div class="survey-actions">
+          <button type="button" class="btn btn-primary btn-large" onclick="calculateBenefits()">
+            🔍 나의 맞춤 혜택 & 지원 사업 확인하기
+          </button>
+          <button type="button" class="btn btn-secondary" onclick="resetSurvey()">초기화</button>
+        </div>
+
+        <!-- 결과 진단 영역 -->
+        <div id="surveyResultBox" class="survey-result-box" style="display: none;">
+          <div class="result-header">
+            <div class="result-title-badge">진단 완료 📋</div>
+            <h3 id="resultSummaryTitle">귀하를 위한 산업통상자원부 맞춤 지원 정책 결과</h3>
+            <p id="resultSummaryDesc">체크하신 조건에 매칭되는 정부 지원 프로그램과 신청 창구입니다.</p>
+          </div>
+
+          <div class="result-cards-list" id="resultCardsContainer">
+            <!-- 매칭된 결과 카드가 동적으로 주입됨 -->
+          </div>
+
+          <div class="result-footer-help">
+            <div class="help-box">
+              <strong>💡 아직 궁금한 점이 남으셨나요?</strong>
+              <p>더 상세한 자격 요건 및 지원 공고는 <strong>정부민원 콜센터(국번없이 110)</strong> 또는 <strong>산업통상자원부 종합상담실(1577-0900)</strong>에서 상담받으실 수 있습니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 섹션 3: 2025~2026 주요 정책 동향 한눈에 보기 -->
+    <section id="trends" class="section-block">
+      <div class="section-header">
+        <span class="section-badge">KEY TRENDS</span>
+        <h2>지금 주목해야 할 주요 경제·산업 동향</h2>
+        <p>글로벌 무대에서 변화하는 대한민국 산업통상자원부의 핵심 드라이브 포인트입니다.</p>
+      </div>
+
+      <div class="trend-grid">
+        <div class="trend-card">
+          <div class="trend-badge urgent">글로벌 통상</div>
+          <h3>미국 신행정부 출범 & 글로벌 통상 파고 대응</h3>
+          <p>보호무역주의 심화와 관세 장벽에 대비하여 민관 통상 T/F를 상시 가동하고 한미 조선 협력 및 핵심 공급망 다변화를 적극 추진합니다.</p>
+          <div class="trend-status">
+            <span class="dot active"></span> 상시 민관 합동 대응체계 가동 중
+          </div>
+        </div>
+
+        <div class="trend-card">
+          <div class="trend-badge hot">첨단 제조</div>
+          <h3>AI 대전환에 맞춘 반도체·로봇 초격차 프로젝트</h3>
+          <p>생성형 AI 시대 필수 부품인 HBM 및 차세대 신경망처리장치(NPU) R&D를 전폭 지원하며, 현대차·삼성 등과 'K-휴머노이드 연합' 결성.</p>
+          <div class="trend-status">
+            <span class="dot active"></span> 메가 클러스터 인프라 조기 착공
+          </div>
+        </div>
+
+        <div class="trend-card">
+          <div class="trend-badge energy">에너지 혁신</div>
+          <h3>K-원전 르네상스 & 국가 전력망 대확충</h3>
+          <p>체코 신규 원전 수주 본계약 추진과 함께 AI 데이터센터 급증에 따른 전력 수요를 충당하기 위해 '국가 전력망 특별법' 통과에 총력.</p>
+          <div class="trend-status">
+            <span class="dot active"></span> 서해안 초고압 전력고속도로 설계
+          </div>
+        </div>
+
+        <div class="trend-card">
+          <div class="trend-badge finance">민생 상생</div>
+          <h3>대기업-협력사 간 2조 원대 '상생 무역보증'</h3>
+          <p>SK하이닉스·시중은행과 함께 반도체 협력사 금융비용을 최대 2.5%p 절감해주고 방산, 바이오, 원전 분야로 10조 원 규모 확대 추진.</p>
+          <div class="trend-status">
+            <span class="dot active"></span> 중소·중견기업 신청 접수 중
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 섹션 4: 최신 뉴스 및 정책 보도자료 -->
+    <section id="news" class="section-block">
+      <div class="section-header">
+        <span class="section-badge">PRESS & MEDIA</span>
+        <h2>실시간 산업부 정책 뉴스 & 보도자료</h2>
+        <p>각 카드를 클릭하시면 원문 기사 및 공식 누리집 발표문으로 연결됩니다.</p>
+      </div>
+
+      <!-- 뉴스 필터 버튼 -->
+      <div class="news-filter">
+        <button class="filter-btn active" onclick="filterNews('all')">전체보기</button>
+        <button class="filter-btn" onclick="filterNews('semiconductor')">반도체·첨단산업</button>
+        <button class="filter-btn" onclick="filterNews('export')">수출·통상</button>
+        <button class="filter-btn" onclick="filterNews('nuclear')">에너지·원전</button>
+      </div>
+
+      <div class="news-grid" id="newsContainer">
+        <!-- 뉴스 1: 반도체 상생금융 -->
+        <article class="news-card" data-category="semiconductor">
+          <div class="news-category tag-semi">첨단반도체 · 상생</div>
+          <h3 class="news-headline">산업부, SK하이닉스·은행 손잡고 소부장 협력사에 2조 상생 무역금융 공급</h3>
+          <p class="news-summary">대기업 성장의 과실이 중소 협력사로 번지도록 대출 한도 확대 및 최대 2.5%p 금리 우대. 연내 방산·원전·바이오로 10조 원까지 확대 방침.</p>
+          <div class="news-meta">
+            <span class="news-source">언론보도 / 정부발표</span>
+            <span class="news-date">주요 동향</span>
+          </div>
+          <div class="news-links">
+            <a href="https://www.motie.go.kr/www/bbs/BBSMSTR_000000000044/list.do" target="_blank" rel="noopener noreferrer" class="link-btn">산업부 보도자료 ↗</a>
+            <a href="https://search.naver.com/search.naver?query=%EC%82%B0%EC%97%85%ED%86%B5%EC%83%81%EC%9E%90%EC%9B%90%EB%B6%80+%EB%B0%98%EB%8F%84%EC%84%B4+%EC%83%81%EC%83%9D%EB%AC%B4%EC%97%AD%EA%B8%88%EC%9C%B5" target="_blank" rel="noopener noreferrer" class="link-btn secondary">관련 뉴스 검색 ↗</a>
+          </div>
+        </article>
+
+        <!-- 뉴스 2: 역대 최대 무역보험 -->
+        <article class="news-card" data-category="export">
+          <div class="news-category tag-trade">수출·무역</div>
+          <h3 class="news-headline">역대 최대 252조 무역보험 공급… '수출애로 해소 3종 세트' 본격 가동</h3>
+          <p class="news-summary">글로벌 물류비 급등 및 환율 불안에 대응해 무역보험 공급을 전년비 10조 원 확대하고 대미 통상 불확실성에 대응한 범부처 T/F 신속 가동.</p>
+          <div class="news-meta">
+            <span class="news-source">산업통상자원부 업무보고</span>
+            <span class="news-date">정책 발표</span>
+          </div>
+          <div class="news-links">
+            <a href="https://www.kdi.re.kr/research/policy/view?pub_no=18664" target="_blank" rel="noopener noreferrer" class="link-btn">KDI 정책동향 원문 ↗</a>
+            <a href="https://www.motie.go.kr" target="_blank" rel="noopener noreferrer" class="link-btn secondary">MOTIE 누리집 ↗</a>
+          </div>
+        </article>
+
+        <!-- 뉴스 3: 체코 원전 & 원전 생태계 -->
+        <article class="news-card" data-category="nuclear">
+          <div class="news-category tag-energy">에너지·원전</div>
+          <h3 class="news-headline">체코 신규 원전 2기 본계약 완수 총력… 원전 중소기업 글로벌 공급망 진입 지원</h3>
+          <p class="news-summary">유럽 원전 르네상스 주도를 위해 국내 중소 원전 기자재 기업의 해외 인증 및 보증보험 지원 사업을 기존 30여 개로 확대하여 전방위 지원.</p>
+          <div class="news-meta">
+            <span class="news-source">대한민국 정책브리핑 (korea.kr)</span>
+            <span class="news-date">보도자료</span>
+          </div>
+          <div class="news-links">
+            <a href="https://www.korea.kr/briefing/pressReleaseList.do" target="_blank" rel="noopener noreferrer" class="link-btn">정책브리핑 기사 ↗</a>
+            <a href="https://www.motie.go.kr/www/bbs/BBSMSTR_000000000044/list.do" target="_blank" rel="noopener noreferrer" class="link-btn secondary">산업부 게시판 ↗</a>
+          </div>
+        </article>
+
+        <!-- 뉴스 4: K-휴머노이드 로봇 연합 -->
+        <article class="news-card" data-category="semiconductor">
+          <div class="news-category tag-semi">미래신산업</div>
+          <h3 class="news-headline">정부-기업 합작 'K-휴머노이드 연합' 출범… 제조 현장에 차세대 지능형 로봇 투입</h3>
+          <p class="news-summary">인구감소와 생산성 정체를 타개할 핵심 열쇠인 AI 기반 휴머노이드 로봇 생태계 구축을 위해 자동차·전자 주력 공정 대상 실증 테스트베드 구축.</p>
+          <div class="news-meta">
+            <span class="news-source">산업통상자원부 첨단산업정책국</span>
+            <span class="news-date">보도발표</span>
+          </div>
+          <div class="news-links">
+            <a href="https://www.motie.go.kr" target="_blank" rel="noopener noreferrer" class="link-btn">보도 원문 보기 ↗</a>
+            <a href="https://search.naver.com/search.naver?query=%EC%82%B0%EC%97%85%EB%B6%80+K-%ED%9 human%EB%85%B8%EC%9D%B4%EB%93%9C+%EC%97%B0%ED%95%A9" target="_blank" rel="noopener noreferrer" class="link-btn secondary">동향 브리핑 ↗</a>
+          </div>
+        </article>
+
+        <!-- 뉴스 5: 기회발전특구 및 지역위기 대응 -->
+        <article class="news-card" data-category="export">
+          <div class="news-category tag-trade">지역발전·상생</div>
+          <h3 class="news-headline">전국 주요 거점에 '기회발전특구' 지정… 파격적 세제 혜택과 규제 완화</h3>
+          <p class="news-summary">수도권 기업의 지방 이전을 장려하고 지방 소멸 위기를 극복하기 위한 기회발전특구에 상속세 감면, 지방세 감면 등 과감한 투자 유인책 제공.</p>
+          <div class="news-meta">
+            <span class="news-source">대통령직속 지방시대위 & 산업부</span>
+            <span class="news-date">정책 현황</span>
+          </div>
+          <div class="news-links">
+            <a href="https://www.korea.kr" target="_blank" rel="noopener noreferrer" class="link-btn">정책브리핑 바로가기 ↗</a>
+            <a href="https://www.motie.go.kr" target="_blank" rel="noopener noreferrer" class="link-btn secondary">산업부 공고 ↗</a>
+          </div>
+        </article>
+
+        <!-- 뉴스 6: 무탄소에너지 CFE 연합 글로벌 확산 -->
+        <article class="news-card" data-category="nuclear">
+          <div class="news-category tag-energy">에너지·탄소중립</div>
+          <h3 class="news-headline">무탄소에너지(CFE) 이니셔티브 전 세계 동참국 확대… 원전·수소·재생 동반 육성</h3>
+          <p class="news-summary">RE100의 현실적 대안으로 우리나라가 주도하는 CFE(Carbon Free Energy) 프로그램에 아시아·유럽 등 글로벌 주요국들의 지지 서약 확산.</p>
+          <div class="news-meta">
+            <span class="news-source">기후에너지통상 브리핑</span>
+            <span class="news-date">국제 동향</span>
+          </div>
+          <div class="news-links">
+            <a href="https://www.motie.go.kr" target="_blank" rel="noopener noreferrer" class="link-btn">CFE 이니셔티브 보기 ↗</a>
+            <a href="https://search.naver.com/search.naver?query=%EB%AC%B4%ED%83%84%EC%86%8C%EC%97%90%EB%84%88%EC%A7%80+%EC%97%B0%ED%95%A9+CFE+%EC%82%B0%EC%97%85%EB%B6%80" target="_blank" rel="noopener noreferrer" class="link-btn secondary">관련 뉴스 보기 ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="official-banner">
+        <div class="banner-text">
+          <strong>더 많은 정부 공식 보도자료를 확인하고 싶으신가요?</strong>
+          <p>산업통상자원부 공식 대변인실에서 실시간으로 발행하는 정책 브리핑과 통계 자료를 만나보실 수 있습니다.</p>
+        </div>
+        <a href="https://www.motie.go.kr/www/bbs/BBSMSTR_000000000044/list.do" target="_blank" rel="noopener noreferrer" class="btn btn-banner">공식 보도자료실 바로가기 ↗</a>
+      </div>
+    </section>
+
+    <!-- 섹션 5: 인터랙티브 국민 소통관 (OX 퀴즈 & 내게 맞는 정책 찾기) -->
+    <section id="quiz" class="section-block">
+      <div class="section-header">
+        <span class="section-badge">INTERACTIVE ZONE</span>
+        <h2>국민 소통 & 정책 참여 코너</h2>
+        <p>쉽고 재미있는 OX 퀴즈를 풀고, 내 상황에 딱 맞는 산업부 지원 제도를 찾아보세요!</p>
+      </div>
+
+      <div class="interactive-grid">
+        <!-- OX 퀴즈 위젯 -->
+        <div class="interactive-box quiz-box">
+          <div class="box-badge">🎯 10초 상식 퀴즈</div>
+          <h3 id="quizQuestion">산업통상자원부는 원자력 발전뿐 아니라 태양광·풍력 등 신재생에너지 정책도 함께 총괄한다?</h3>
+          <div class="quiz-controls">
+            <button class="btn-choice btn-o" onclick="checkQuiz(true)">O (그렇다)</button>
+            <button class="btn-choice btn-x" onclick="checkQuiz(false)">X (아니다)</button>
+          </div>
+          <div id="quizResult" class="quiz-result-box" style="display: none;"></div>
+          <button id="nextQuizBtn" class="btn btn-next" style="display: none;" onclick="nextQuiz()">다음 퀴즈 풀기 ➔</button>
+        </div>
+
+        <!-- 맞춤 정책 추천 계산기/찾기 -->
+        <div class="interactive-box finder-box">
+          <div class="box-badge">🔍 내게 맞는 정책 맞춤 추천</div>
+          <h3>당신은 어떤 분야에 관심이 있으신가요?</h3>
+          <div class="finder-inputs">
+            <select id="userType" class="custom-select" onchange="recommendPolicy()">
+              <option value="student">청년 / 이공계 대학생 / 취준생</option>
+              <option value="sme">중소·벤처기업 / 소부장 대표·재직자</option>
+              <option value="exporter">해외 수출 희망 소상공인·기업</option>
+              <option value="citizen">일반 국민 / 에너지 복지 혜택 관심</option>
+            </select>
+          </div>
+
+          <div id="recommendationResult" class="recommend-result-card">
+            <!-- JS 동적 렌더링 -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 섹션 6: FAQ (자주 묻는 질문) -->
+    <section class="section-block faq-section">
+      <div class="section-header">
+        <span class="section-badge">FAQ</span>
+        <h2>국민들이 가장 많이 궁금해하는 질문</h2>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Q. 산업통상자원부와 중소벤처기업부는 어떻게 다른가요?</summary>
+          <div class="faq-answer">
+            산업통상자원부는 국가 기간산업(반도체, 자동차, 조선, 철강 등), 에너지 정책(원전, 전력, 신재생), 그리고 국가 간 통상 협정과 수출 전반의 거시적 정책을 수립하고 지원합니다. 반면 중소벤처기업부는 중소기업과 스타트업의 창업, 소상공인 보호 및 골목상권 육성에 더욱 특화된 지원을 전담합니다.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Q. 에너지바우처는 누가 받을 수 있고 어떤 혜택인가요?</summary>
+          <div class="faq-answer">
+            에너지바우처는 취약계층(기초생활수급자 중 노인, 영유아, 장애인, 임산부 등 포함 가구)이 여름에는 전기요금으로, 겨울에는 도시가스, 연탄, 등유 등을 구입할 수 있도록 지원하는 산업통상자원부의 대표 복지 정책입니다. 주민센터나 복지로 누리집을 통해 신청하실 수 있습니다.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>Q. 체코 원전 수주가 우리 국민과 경제에 주는 효과는 무엇인가요?</summary>
+          <div class="faq-answer">
+            체코 신규 원전 건설 사업은 수십조 원 규모의 대형 국책 프로젝트로, 국내 굴지의 원전 기자재 중소·중견기업 수백 곳에 10년 이상의 안정적인 일감을 제공합니다. 또한 'K-원전'의 시공 신뢰도를 전 세계에 입증하여 폴란드, UAE 등 후속 해외 수주 가능성을 크게 높입니다.
+          </div>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- 하단 푸터 -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-info">
+        <div class="footer-logo">대한민국 산업통상자원부 (MOTIE)</div>
+        <p>세종특별자치시 한누리대로 402 정부세종청사 12·13동 | 정부민원안내 콜센터 국번없이 110</p>
+        <p class="copyright">본 웹 애플리케이션은 국민의 알권리 증진과 정책 이해를 돕기 위해 제작된 브라우저 전용 독립형 웹 애플리케이션입니다. 별도 서버 없이 오프라인에서도 작동합니다.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.motie.go.kr" target="_blank" rel="noopener noreferrer">공식 웹사이트</a>
+        <a href="https://www.korea.kr" target="_blank" rel="noopener noreferrer">대한민국 정책브리핑</a>
+        <a href="https://www.youtube.com/@motieorea" target="_blank" rel="noopener noreferrer">공식 유튜브 채널</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
